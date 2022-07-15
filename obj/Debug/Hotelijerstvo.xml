@@ -1,0 +1,1031 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Hotelijerstvo
+</name>
+</assembly>
+<members>
+<member name="T:Hotelijerstvo.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Hotelijerstvo.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:Hotelijerstvo.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:Hotelijerstvo.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:Hotelijerstvo.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:Hotelijerstvo.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:Hotelijerstvo.Gastronomija_Delete._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gastronomija_Delete._txtNazivUsluge">
+<summary>
+txtNazivUsluge control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gastronomija_Delete._txtVrstaUsluge">
+<summary>
+txtVrstaUsluge control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gastronomija_Delete._txtSamoposluga">
+<summary>
+txtSamoposluga control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gastronomija_Delete._txtOcjenaRestorana">
+<summary>
+txtOcjenaRestorana control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gastronomija_Delete._btnObrisi">
+<summary>
+btnObrisi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gastronomija_Delete._btnOdustani">
+<summary>
+btnOdustani control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gastronomija_Insert._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gastronomija_Insert._txtNazivUsluge">
+<summary>
+txtNazivUsluge control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gastronomija_Insert._txtVrstaUsluge">
+<summary>
+txtVrstaUsluge control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gastronomija_Insert._txtSamoposluga">
+<summary>
+txtSamoposluga control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gastronomija_Insert._txtOcjenaRestorana">
+<summary>
+txtOcjenaRestorana control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gastronomija_Insert._btnUnesi">
+<summary>
+btnUnesi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gastronomija_Insert._btnOdustani">
+<summary>
+btnOdustani control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gastronomija_Select._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gastronomija_Update._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gastronomija_Update._txtNazivUsluge">
+<summary>
+txtNazivUsluge control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gastronomija_Update._txtVrstaUsluge">
+<summary>
+txtVrstaUsluge control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gastronomija_Update._txtSamoposluga">
+<summary>
+txtSamoposluga control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gastronomija_Update._txtOcjenaRestorana">
+<summary>
+txtOcjenaRestorana control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gastronomija_Update._btnUredi">
+<summary>
+btnUredi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gastronomija_Update._btnOdustani">
+<summary>
+btnOdustani control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gosti_Delete._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gosti_Delete._txtIme">
+<summary>
+txtIme control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gosti_Delete._txtPrezime">
+<summary>
+txtPrezime control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gosti_Delete._txtAdresa">
+<summary>
+txtAdresa control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gosti_Delete._txtDob">
+<summary>
+txtDob control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gosti_Delete._btnObrisi">
+<summary>
+btnObrisi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gosti_Delete._btnOdustani">
+<summary>
+btnOdustani control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gosti_Insert._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gosti_Insert._txtIme">
+<summary>
+txtIme control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gosti_Insert._txtPrezime">
+<summary>
+txtPrezime control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gosti_Insert._txtAdresa">
+<summary>
+txtAdresa control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gosti_Insert._txtDob">
+<summary>
+txtDob control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gosti_Insert._btnUnesi">
+<summary>
+btnUnesi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gosti_Insert._btnOdustani">
+<summary>
+btnOdustani control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gosti_Select._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gosti_Update._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gosti_Update._txtIme">
+<summary>
+txtIme control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gosti_Update._txtPrezime">
+<summary>
+txtPrezime control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gosti_Update._txtAdresa">
+<summary>
+txtAdresa control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gosti_Update._txtDob">
+<summary>
+txtDob control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gosti_Update._btnUredi">
+<summary>
+btnUredi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Gosti_Update._btnOdustani">
+<summary>
+btnOdustani control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Hoteli_Delete._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Hoteli_Delete._txtNazivHotela">
+<summary>
+txtNazivHotela control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Hoteli_Delete._txtLokacijaHotela">
+<summary>
+txtLokacijaHotela control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Hoteli_Delete._txtOstalaPonuda">
+<summary>
+txtOstalaPonuda control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Hoteli_Delete._txtZvjezdicaHotela">
+<summary>
+txtZvjezdicaHotela control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Hoteli_Delete._btnObrisi">
+<summary>
+btnObrisi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Hoteli_Delete._btnOdustani">
+<summary>
+btnOdustani control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Hoteli_Insert._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Hoteli_Insert._txtNazivHotela">
+<summary>
+txtNazivHotela control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Hoteli_Insert._txtLokacijaHotela">
+<summary>
+txtLokacijaHotela control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Hoteli_Insert._txtOstalaPonuda">
+<summary>
+txtOstalaPonuda control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Hoteli_Insert._txtZvjezdicaHotela">
+<summary>
+txtZvjezdicaHotela control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Hoteli_Insert._btnUnesi">
+<summary>
+btnUnesi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Hoteli_Insert._btnOdustani">
+<summary>
+btnOdustani control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Hoteli_Select._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Hoteli_Update._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Hoteli_Update._txtNazivHotela">
+<summary>
+txtNazivHotela control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Hoteli_Update._txtLokacijaHotela">
+<summary>
+txtLokacijaHotela control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Hoteli_Update._txtOstalaPonuda">
+<summary>
+txtOstalaPonuda control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Hoteli_Update._txtZvjezdicaHotela">
+<summary>
+txtZvjezdicaHotela control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Hoteli_Update._btnUredi">
+<summary>
+btnUredi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Hoteli_Update._btnOdustani">
+<summary>
+btnOdustani control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Smjestaj_Delete._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Smjestaj_Delete._txtVrstaSmjestaja">
+<summary>
+txtVrstaSmjestaja control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Smjestaj_Delete._txtBrojNocenja">
+<summary>
+txtBrojNocenja control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Smjestaj_Delete._txtCijenaNocenja">
+<summary>
+txtCijenaNocenja control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Smjestaj_Delete._txtSifraUsluge">
+<summary>
+txtSifraUsluge control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Smjestaj_Delete._btnObrisi">
+<summary>
+btnObrisi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Smjestaj_Delete._btnOdustani">
+<summary>
+btnOdustani control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Smjestaj_Insert._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Smjestaj_Insert._txtVrstaSmjestaja">
+<summary>
+txtVrstaSmjestaja control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Smjestaj_Insert._txtBrojNocenja">
+<summary>
+txtBrojNocenja control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Smjestaj_Insert._txtCijenaNocenja">
+<summary>
+txtCijenaNocenja control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Smjestaj_Insert._txtSifraUsluge">
+<summary>
+txtSifraUsluge control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Smjestaj_Insert._btnUnesi">
+<summary>
+btnUnesi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Smjestaj_Insert._btnOdustani">
+<summary>
+btnOdustani control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Smjestaj_Select._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Smjestaj_Update._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Smjestaj_Update._txtVrstaSmjestaja">
+<summary>
+txtVrstaSmjestaja control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Smjestaj_Update._txtBrojNocenja">
+<summary>
+txtBrojNocenja control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Smjestaj_Update._txtCijenaNocenja">
+<summary>
+txtCijenaNocenja control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Smjestaj_Update._txtSifraUsluge">
+<summary>
+txtSifraUsluge control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Smjestaj_Update._btnUredi">
+<summary>
+btnUredi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Smjestaj_Update._btnOdustani">
+<summary>
+btnOdustani control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Zaposlenici_Delete._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Zaposlenici_Delete._txtImeZaposlenika">
+<summary>
+txtImeZaposlenika control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Zaposlenici_Delete._txtPrezimeZaposlenika">
+<summary>
+txtPrezimeZaposlenika control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Zaposlenici_Delete._txtRadnoMjesto">
+<summary>
+txtRadnoMjesto control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Zaposlenici_Delete._txtSifraPristupnice">
+<summary>
+txtSifraPristupnice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Zaposlenici_Delete._btnObrisi">
+<summary>
+btnObrisi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Zaposlenici_Delete._btnOdustani">
+<summary>
+btnOdustani control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Zaposlenici_Insert._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Zaposlenici_Insert._txtImeZaposlenika">
+<summary>
+txtImeZaposlenika control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Zaposlenici_Insert._txtPrezimeZaposlenika">
+<summary>
+txtPrezimeZaposlenika control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Zaposlenici_Insert._txtRadnoMjesto">
+<summary>
+txtRadnoMjesto control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Zaposlenici_Insert._txtSifraPristupnice">
+<summary>
+txtSifraPristupnice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Zaposlenici_Insert._btnUnesi">
+<summary>
+btnUnesi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Zaposlenici_Insert._btnOdustani">
+<summary>
+btnOdustani control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Zaposlenici_Select._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Zaposlenici_Update._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Zaposlenici_Update._txtImeZaposlenika">
+<summary>
+txtImeZaposlenika control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Zaposlenici_Update._txtPrezimeZaposlenika">
+<summary>
+txtPrezimeZaposlenika control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Zaposlenici_Update._txtRadnoMjesto">
+<summary>
+txtRadnoMjesto control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Zaposlenici_Update._txtSifraPristupnice">
+<summary>
+txtSifraPristupnice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Zaposlenici_Update._btnUredi">
+<summary>
+btnUredi control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Hotelijerstvo.Zaposlenici_Update._btnOdustani">
+<summary>
+btnOdustani control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

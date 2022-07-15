@@ -1,0 +1,50 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Hoteli_Insert.aspx.vb" Inherits="Hotelijerstvo.Hoteli_Insert" %>
+<%@ Import Namespace="System.Data.SqlClient" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+            <h1>Novi hotel</h1>
+            <table>
+                <tr>
+                    <td>Naziv hotela:</td>
+                    <td>
+                        <asp:TextBox ID="txtNazivHotela" runat="server" BackColor="Silver" BorderStyle="Double"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Lokacija hotela:</td>
+                    <td>
+                        <asp:TextBox ID="txtLokacijaHotela" runat="server" BackColor="Silver" BorderStyle="Double"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td>OstalaPonuda:</td>
+                    <td>
+                        <asp:TextBox ID="txtOstalaPonuda" runat="server" BackColor="Silver" BorderStyle="Double"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Zvjezdica hotela:</td>
+                    <td>
+                        <asp:TextBox ID="txtZvjezdicaHotela" runat="server" BackColor="Silver" BorderStyle="Double"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>
+                        <asp:Button ID="btnUnesi" runat="server" Text="Unesi" BorderColor="Silver" BorderStyle="Double" />
+                        <asp:Button ID="btnOdustani" runat="server" Text="Odustani" BorderColor="Silver" BorderStyle="Double" />
+                    </td>
+                </tr>
+            </table>
+    </div>
+    </form>
+</body>
+</html>
